@@ -1,0 +1,145 @@
+:root {
+	--black: #111;
+	--orange: #fd9222;
+	--violet: #1e1823;
+	--beige: #fcf1e0;
+	--light: #fafafa;
+	--gray: #4c4c4c;
+	--white: #fff;
+	--marker-body: #4c4c4c;
+	--marker-border: #eceded;
+}
+/* Global styles */
+body {
+font-family: "Montserrat", "Roboto", sans-serif;   
+background-color: #fafafa;
+color: #111;
+}
+
+ul, ol {
+list-style-type: none;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+button {
+cursor: pointer;
+}
+
+/* #region Header */
+
+.main_header {
+
+}
+.page_nav {
+}
+.page_logo {
+}
+.page_logo {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: #111;
+    text-transform: uppercase;
+    }
+.page_logo:hover, .page_logo:focus {
+    color: #FD9222;
+ }
+.simply {
+    font-style: italic;
+}
+.list_header {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: -0.02em;
+}
+.header_menu_link:hover, .header_menu_link:focus {
+    color: #FD9222;
+    }
+.header_item {
+}
+.header_menu_link {
+}
+.list_header_img {
+}
+.header_list_img {
+}
+.header_img {
+}
+/* #endregion  */
+
+/* #region Hero */
+.hero {
+background: rgba(17, 17, 17, 0.7);
+}
+.hero_title {
+font-weight: 500;
+font-size: 28px;
+line-height: 1.21;
+letter-spacing: -0.03em;
+color: #fff;
+}
+.hero_button {
+font-weight: 600;
+font-size: 14px;
+border-radius: 100px;
+padding: 14px 40px;
+background: #fd9222;
+}
+.hero_button:hover, .hero_button:focus {
+    background: #fcf1e0;
+}
+.hero_how_made {
+border: 1px solid #fff;
+border-radius: 100px;
+padding: 14px 40px;
+}
+.hero_how_made:hover, .hero_how_made:focus {
+color: #fd9222;
+border: 1px solid #fd9222;
+}
+
+.hero_scroll_down {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.28571;
+letter-spacing: -0.03em;
+color: #fff;
+}
+
+.hero_scroll_down:hover, .hero_scroll_down:focus {
+    color: #fd9222;
+}
+
+/* #endregion  */
+
+/* #region Section 2 */
+
+.section_benefits {
+    background: #1e1823;
+}
+.title_benefits {
+}
+.list_benefits {
+}
+.item_benefits {
+}
+.item_title_benefits {
+font-weight: 600;
+font-size: 18px;
+line-height: 1.22;
+color: #fff;
+}
+.item_text_benefits {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+/* #endregion  */
